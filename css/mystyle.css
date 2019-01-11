@@ -1,0 +1,64 @@
+/* .myNavbar{
+  text-align: left;
+  letter-spacing: 5px;
+  float: left;
+} */
+
+
+nav.myNavbar {
+    border: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  overflow: auto;
+  position: sticky;
+  width: 100%;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: serif;
+}
+
+li a:hover {
+  background-color: #a6a6a6;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body{
+  background-image: url("Images/Background.jpg");
+  background-attachment: scroll;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  opacity: 0.70;
+  letter-spacing:3px;
+  padding-top: 20px;
+  font-size: 12px;
+  font-family: serif;
+}
+
+footer{
+ position: fixed;
+ left: 0;
+ bottom: 0px;
+ width: 100%;
+ background-color: white;
+ color: #337ab7;
+ text-align: center;
+ padding: 10px;
+ font-size: 13px;
+ font-family: serif;
+}

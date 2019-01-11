@@ -1,0 +1,51 @@
+.Logo{
+    opacity:0.5;
+}
+body{
+  background-color: #ddf3ff;
+}
+
+.myNavbar{
+      background-color: #FFEDED;
+      text-align: center;
+      float: none;
+      display: inline-block;
+      font-family: serif;
+
+
+}
+
+.navbar-brand{
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  /* font-style: oblique; */
+}
+
+.About{
+  font-family:serif;
+  font-style:oblique;
+  letter-spacing: 10px;
+  font-size:50px;
+}
+
+.text{
+  font-family: Helvetica;
+  letter-spacing: 1px;
+  font-size:15px;
+  font-style: oblique;
+  margin-left: 100px;
+  margin-right:100px;
+}
+
+footer{
+position: fixed;
+ left: 0;
+ bottom: 0px;
+ width: 100%;
+ background-color: white;
+ color: #337ab7;
+ text-align: center;
+ padding: 10px;
+ font-size: 13px;
+ font-family: serif;
+}
