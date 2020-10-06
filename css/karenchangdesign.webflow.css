@@ -3492,6 +3492,12 @@
     width: 90px;
     margin-left: 30px;
   }
+  .image-26 {
+    top: 38px;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+  }
   .case-study-div-block {
     display: none;
     padding-right: 42px;
@@ -3872,6 +3878,7 @@
     top: 63px;
   }
   .image-26 {
+    top: -22px;
     display: block;
     overflow: visible;
     height: 160px;
@@ -3905,6 +3912,8 @@
   }
   .heading-6.houzz-block {
     display: inline-block;
+    height: 40px;
+    line-height: 10px;
   }
   .paragraph {
     width: 99%;
@@ -3919,11 +3928,12 @@
   }
   .section-11 {
     margin-top: 15px;
+    margin-left: 20%;
   }
   .section-11.solution {
     height: 120%;
     min-height: 150%;
-    margin-left: 25%;
+    margin-left: 20%;
     padding-left: 5%;
   }
   .heading-8 {
@@ -4095,13 +4105,34 @@
     font-size: 100px;
     line-height: 100px;
   }
+  .work-projects-list {
+    width: 150px;
+  }
   .work-projects-list.tablet {
     margin-bottom: 60px;
   }
   .work-projects-list.tablet.back {
     margin-bottom: 0px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .div-block-84 {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .div-block-84.right-align {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .paragraph-2 {
+    width: 150px;
+    height: 40px;
     font-size: 14px;
   }
   .div-block-86 {
@@ -4112,6 +4143,11 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    text-align: left;
+  }
+  .div-block-88 {
+    width: 140px;
+    text-align: left;
   }
   .div-block-91.top {
     display: block;
@@ -4211,6 +4247,27 @@
   }
   .lightbox-link-46 {
     margin-top: 6px;
+  }
+  .bold-text.houzz-block {
+    line-height: 40px;
+  }
+  .section-28 {
+    padding-right: 9px;
+    padding-left: 9px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .section-29 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
